@@ -7,10 +7,10 @@
   "version": 2,
   "routes": [
     {
-      "src": "/",
+      "src": "/(.*)",
       "status": 301,
       "headers": {
-        "Location": "https://soundcloud.com/amylnitrate"
+        "Location": "https://soundcloud.com/amylnitrate/$1"
       }
     }
   ]
